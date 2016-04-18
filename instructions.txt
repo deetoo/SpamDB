@@ -1,0 +1,5 @@
+1) edit spam.sql to reflect the DB name, DB user, and DB password for your database.
+2) import spam.sql into your DB, ie: mysql -uroot -p <spam.sql
+3) edit spam.sh to use correct DBNAME, DBUSER, DBPASS, and ENTRIES (entries is total number of rows to populate)
+4) execute spam.sh to populate the DB.
+
