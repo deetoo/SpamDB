@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# import the database schema.
+#
+# replace with your mysql credentials.
+mysql -uUSERNAME -pPASSWORD < spam.sql
+
 # setup DB connection details.
 DBNAME="SpamDB"
 DBUSER="SpamUser"
